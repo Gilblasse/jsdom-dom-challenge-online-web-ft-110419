@@ -52,8 +52,6 @@ function addComment(e) {
     e.preventDefault();
 }
 
-form.addEventListener('submit',addComment);
-
 
 
 
@@ -63,4 +61,5 @@ minusButton.addEventListener('click',subtractCount);
 plusButton.addEventListener('click',addCount);
 pauseButton.addEventListener('click',pauseCount);
 heartButton.addEventListener('click',addLike);
+form.addEventListener('submit',addComment);
 
