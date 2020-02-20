@@ -29,9 +29,18 @@ function addCount() {
   currentCount.innerText = num;
 }
 
+function disableBTNS(){
+  buttons.forEach(function(btn){
+    if (btn.id != "pause"){
+       btn.disabled = true;
+    }
+  });
+}
+
 function pauseCount() {
   if (this.innerText == "pause"){
     this.innerText = "resume";
+    disableBTNS();
     clearInterval(pause);
   }else{
     this.innerText = "pause";
