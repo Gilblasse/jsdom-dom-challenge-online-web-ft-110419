@@ -43,6 +43,19 @@ function addLike() {
   likes.innerHTML = `<div>${currentCount.innerText}</div>`;
 }
 
+function addComment(e) {
+  let listComments = document.querySelector("div.comments");
+    userComment = form.querySelector('input').value;
+    let liTag = document.createElement('li');
+    liTag.innerText = userComment;
+    listComments.append(liTag);
+    e.preventDefault();
+}
+
+form.addEventListener('submit',function(e){
+
+})
+
 
 
 
