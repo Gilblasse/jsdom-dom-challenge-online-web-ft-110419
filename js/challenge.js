@@ -4,7 +4,7 @@ let plusButton = document.querySelector("#plus");
 let heartButton = document.querySelector("#heart");
 let pauseButton = document.querySelector("#pause");
 let likes = document.querySelector("ul");
-let form = document.querySelector("#comment-form")
+let form = document.querySelector("#comment-form");
 
 let pause;
 
