@@ -6,7 +6,7 @@ let pauseButton = document.querySelector("#pause");
 let likes = document.querySelector("ul");
 let form = document.querySelector("#comment-form");
 let listComments = document.querySelector("div.comments");
-
+let buttons = document.querySelectorAll('button')
 let pause;
 
 function startCounter(){
