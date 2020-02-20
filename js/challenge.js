@@ -52,9 +52,7 @@ function addComment(e) {
     e.preventDefault();
 }
 
-form.addEventListener('submit',function(e){
-
-})
+form.addEventListener('submit',addComment);
 
 
 
