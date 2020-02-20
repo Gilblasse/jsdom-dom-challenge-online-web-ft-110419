@@ -52,6 +52,7 @@ function pauseCount() {
     clearInterval(pause);
   }else{
     this.innerText = "pause";
+    enableBTNS
     pause = setInterval(startCounter,1000);
   }
 }
