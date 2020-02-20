@@ -37,11 +37,11 @@ function disableBTNS(){
   });
 }
 
-function (){
+function enableBTNS(){
   buttons.forEach(function(btn){
-   if (btn.disabled == true){
-     console.log(btn.id);
-   }
+    if (btn.disabled == true){
+       console.log(btn.id);
+    }
   })
 }
 
