@@ -40,7 +40,7 @@ function disableBTNS(){
 function enableBTNS(){
   buttons.forEach(function(btn){
     if (btn.disabled == true){
-       console.log(btn.id);
+       btn.disabled = false;
     }
   })
 }
