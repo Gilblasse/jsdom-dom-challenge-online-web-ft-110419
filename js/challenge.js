@@ -3,6 +3,7 @@ let minusButton = document.querySelector("#minus");
 let plusButton = document.querySelector("#plus");
 let heartButton = document.querySelector("#heart");
 let pauseButton = document.querySelector("#pause");
+let pauseButton = document.querySelector("ul");
 
 let pause;
 
