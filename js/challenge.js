@@ -48,5 +48,5 @@ pause = setInterval(startCounter,1000);
 minusButton.addEventListener('click',subtractCount);
 plusButton.addEventListener('click',addCount);
 pauseButton.addEventListener('click',pauseCount);
-heartButton.addEventListener('click',pauseCount);
+heartButton.addEventListener('click',addLike);
 
