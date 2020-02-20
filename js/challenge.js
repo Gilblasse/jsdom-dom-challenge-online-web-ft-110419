@@ -5,6 +5,7 @@ let heartButton = document.querySelector("#heart");
 let pauseButton = document.querySelector("#pause");
 let likes = document.querySelector("ul");
 let form = document.querySelector("#comment-form");
+let listComments = document.querySelector("div.comments")
 
 let pause;
 
