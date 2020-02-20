@@ -38,7 +38,7 @@ function pauseCount() {
 }
 
 function addLike() {
-  
+  likes.innerHTML = `<div>${currentCount.innerText}</div>`
 }
 
 
