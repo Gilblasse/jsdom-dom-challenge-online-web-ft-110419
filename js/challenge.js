@@ -37,6 +37,14 @@ function disableBTNS(){
   });
 }
 
+function (){
+  buttons.forEach(function(btn){
+   if (btn.disabled == true){
+     console.log(btn.id);
+   }
+  })
+}
+
 function pauseCount() {
   if (this.innerText == "pause"){
     this.innerText = "resume";
